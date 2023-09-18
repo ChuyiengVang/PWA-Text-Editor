@@ -43,11 +43,12 @@ module.exports = () => {
         theme_color: '#31a9e1',
         start_url: './',
         publicPath: './',
+        fingerprints: false,
         icons: [
           {
             src: path.resolve('src/images/logo.png'),
             sizes: [96, 128, 192, 256, 384, 512], // multiple sizes
-            destination: path.join('assests', 'icon'),
+            destination: path.join('assests', 'icons'),
           },
         ]
       }),
